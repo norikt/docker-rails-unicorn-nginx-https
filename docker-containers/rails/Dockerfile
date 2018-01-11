@@ -1,7 +1,7 @@
 FROM ruby:2.4.3-alpine3.7
 
 ENV BUILD_PACKAGES="build-base bash" \
-    DEV_PACKAGES="curl-dev ruby-dev zlib-dev libxml2-dev libxslt-dev tzdata yaml-dev curl" \
+    DEV_PACKAGES="curl-dev ruby-dev zlib-dev libxml2-dev libxslt-dev tzdata yaml-dev curl mariadb-client" \
     RUBY_PACKAGES="ruby-json yaml nodejs yarn" \
     RAILS_ROOT="/myapp"
 
